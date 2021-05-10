@@ -22,5 +22,13 @@ class ListTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool
+       {
+           return true
+       }
+
+      
 
 }

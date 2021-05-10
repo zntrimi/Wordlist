@@ -380,9 +380,11 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <gestureRecognizers/>
                                 <connections>
                                     <outlet property="englishLabel" destination="gQR-7X-cJp" id="rDp-UZ-Pnf"/>
                                     <outlet property="japaneseLabel" destination="nvV-Hx-GHc" id="ORr-uh-RhK"/>
+                                    <outletCollection property="gestureRecognizers" destination="UgP-Wf-HmH" appends="YES" id="RxG-36-naA"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -406,6 +408,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Po-qj-PWV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="MPV-MU-Rsh" userLabel="Exit" sceneMemberID="exit"/>
+                <swipeGestureRecognizer direction="right" id="UgP-Wf-HmH"/>
             </objects>
             <point key="canvasLocation" x="1729" y="829"/>
         </scene>
